@@ -133,6 +133,10 @@ void NPluginInit(void)
   ADDNPLUGIN(025)
 #endif
 
+#ifdef NPLUGIN_072
+  ADDNPLUGIN(072)
+#endif
+
   NPluginCall(NPLUGIN_PROTOCOL_ADD, 0);
 }
 
